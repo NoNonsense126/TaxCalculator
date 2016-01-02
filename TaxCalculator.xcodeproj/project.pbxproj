@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		163D48F11C37DC6000787BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163D48F01C37DC6000787BBA /* main.m */; };
 		163D48F41C37DC6000787BBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163D48F31C37DC6000787BBA /* AppDelegate.m */; };
-		163D48F71C37DC6000787BBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163D48F61C37DC6000787BBA /* ViewController.m */; };
 		163D48FA1C37DC6000787BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163D48F81C37DC6000787BBA /* Main.storyboard */; };
 		163D48FC1C37DC6000787BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163D48FB1C37DC6000787BBA /* Assets.xcassets */; };
 		163D48FF1C37DC6000787BBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163D48FD1C37DC6000787BBA /* LaunchScreen.storyboard */; };
 		163D490A1C37DC6100787BBA /* TaxCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163D49091C37DC6100787BBA /* TaxCalculatorTests.m */; };
 		163D49151C37DC6100787BBA /* TaxCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163D49141C37DC6100787BBA /* TaxCalculatorUITests.m */; };
+		163D49241C37DCB600787BBA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163D49231C37DCB600787BBA /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		163D48F01C37DC6000787BBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		163D48F21C37DC6000787BBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		163D48F31C37DC6000787BBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		163D48F51C37DC6000787BBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		163D48F61C37DC6000787BBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		163D48F91C37DC6000787BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		163D48FB1C37DC6000787BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163D48FE1C37DC6000787BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		163D49101C37DC6100787BBA /* TaxCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaxCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		163D49141C37DC6100787BBA /* TaxCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaxCalculatorUITests.m; sourceTree = "<group>"; };
 		163D49161C37DC6100787BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163D49221C37DCB600787BBA /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		163D49231C37DCB600787BBA /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +103,8 @@
 			children = (
 				163D48F21C37DC6000787BBA /* AppDelegate.h */,
 				163D48F31C37DC6000787BBA /* AppDelegate.m */,
-				163D48F51C37DC6000787BBA /* ViewController.h */,
-				163D48F61C37DC6000787BBA /* ViewController.m */,
+				163D49221C37DCB600787BBA /* RootViewController.h */,
+				163D49231C37DCB600787BBA /* RootViewController.m */,
 				163D48F81C37DC6000787BBA /* Main.storyboard */,
 				163D48FB1C37DC6000787BBA /* Assets.xcassets */,
 				163D48FD1C37DC6000787BBA /* LaunchScreen.storyboard */,
@@ -270,9 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163D48F71C37DC6000787BBA /* ViewController.m in Sources */,
 				163D48F41C37DC6000787BBA /* AppDelegate.m in Sources */,
 				163D48F11C37DC6000787BBA /* main.m in Sources */,
+				163D49241C37DCB600787BBA /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
